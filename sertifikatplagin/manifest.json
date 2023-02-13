@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "ЭПЦ",
+    "version": "3.0",
+  
+    "description": "Плагин предназначен для получения информации о сертификатах",
+    "permissions": [
+        "declarativeContent",
+        "tabs",
+        "notifications",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "page_action": {
+        "default_popup": "popup.html"
+       
+    },
+    "web_accessible_resources": [
+        "./dragn.js"
+    ]
+}
