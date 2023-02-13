@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Certificate xmlns="http://www.example.com/certificates">
+  <SerialNumber>132</SerialNumber>
+  <Issuer>
+    <Country>RU</Country>
+    <Organization>Example Inc.SutaMoshRep</Organization>
+  </Issuer>
+  <Subject>
+    <Country>RU</Country>
+    <Organization>Acme Ltd.</Organization>
+    <CommonName>www.acme.com</CommonName>
+  </Subject>
+  <ValidFrom>2022-01-01</ValidFrom>
+  <ValidTo>2023-12-31</ValidTo>
+  <PublicKey>
+    <Algorithm>RSA</Algorithm>
+    <Modulus>Text text text Text text text</Modulus>
+    <Exponent>Text text text Text text text</Exponent>
+  </PublicKey>
+  <Signature>
+    <Algorithm>SHA256withRSA</Algorithm>
+    <Value>Text text text</Value>
+  </Signature>
+</Certificate>

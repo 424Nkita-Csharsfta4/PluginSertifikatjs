@@ -1,0 +1,16 @@
+{
+    "name": "Plagin Sertifikat",
+    "version": "3.0",
+    "description": "Плагин для подписание документов электроной подписью!",
+    "background": {
+        "scripts": [
+            "background.json"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+        
+    },
+    "manifest_version": 3
+}

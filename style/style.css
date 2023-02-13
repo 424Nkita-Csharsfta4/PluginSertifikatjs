@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
+  pre {
+    font-family: "Arial";
+    font-size: 14px;
+    padding: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  #file-input {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+  }
+  
+  #signature-select {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+  }
+  
+  #output {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px 20зч;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    word-wrap: break-word;
+    border: 2px solid lightblue;
+  }
+   
+ 
+  header h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  #file-input, #signature-select {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Style the main title */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Style the file input */
+  input[type="file"] {
+    display: block;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  #signature-select {
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  /* Style the output area */
+  #output {
+    margin: 40px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+  }
+#file-input {
+    display: block;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}

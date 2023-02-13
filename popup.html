@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Ваш документ для подписание электроной подписи</h1>
+  </header>
+  <h1>Подпись идет только для XML сертификатов или документов</h1>
+  
+  <input type="file" id="file-input">
+
+  <select id="signature-select">
+    <option value="sha256">SHA-256</option>
+    <option value="sha384">SHA-384</option>
+    <option value="sha512">SHA-512</option>
+  </select>
+
+  <div id="output"></div>
+
+  <script src="./app.js"></script>
+  <script src="./js/popup.js"></script>
+  <script src="./js/dragn.js"></script>
+  <script src="./js/generatedock.js"></script>
+</body>
+
+</html>
